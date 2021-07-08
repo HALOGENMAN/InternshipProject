@@ -1,0 +1,136 @@
+body{
+    background-color:rgb(4, 6, 34) ;
+    color: white;
+    font-family:Oswald, sans-serif;;
+}
+h4{
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 20px;   
+    padding-top: 5px;
+}
+.col{
+    text-align: center;
+}
+.headder{
+    margin-top: 50px;
+}
+
+.data{
+    margin-top: 100px;
+    
+}
+
+.jk{
+    margin-top: 10px;
+}
+
+.jk1{
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: white;
+    font-size: 20px;
+    background-color: #2e3241;
+    border-radius: 6px;
+}
+
+.dj{
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.first{
+    color: aqua;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+
+.hh0{
+    font-size: 12px;
+}
+.hh1{
+    color: dimgrey;
+}
+.hh2{
+    color: aqua;
+}
+.hh3{
+    font-size: 10px;
+}
+
+.css-button {
+	color: #FFFFFF;
+	font-size: 12px;
+	border-radius: 17px;
+	border: 0px #3866a3 solid;
+	padding: 8px 30px;
+	background-color:aqua;
+	text-shadow: 1px 1px 1px #528ecc;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: aqua;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: rgb(27, 18, 78);
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
